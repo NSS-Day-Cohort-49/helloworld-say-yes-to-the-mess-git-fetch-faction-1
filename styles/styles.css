@@ -1,0 +1,166 @@
+body {
+    background-color: darkgray;
+}
+
+header {
+    margin-bottom:80px;
+}
+
+.logo {
+    width:15%;
+    height:15%;
+    max-width:100%;
+}
+
+.siteTitle {
+    margin-left:100px;
+    object-position:center;
+    width:1000px;
+    height:auto;
+    max-width:100%;
+    box-shadow:1px 1px 0px #999,
+               2px 2px 0px #999,
+               3px 3px 0px #999,
+               4px 4px 0px #999,
+               5px 5px 0px #999,
+               6px 6px 0px #999;
+}
+
+.nav_bar {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    align-content:center;
+    inline-size:800px;
+    font-size:larger;
+    font-family:'Times New Roman', Times, serif;
+    text-align:center;
+    border: 5px solid darkslateblue;
+    border: radius 10px;
+    border-style: ridge;   
+}
+
+.countries {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+}
+
+.hogwarts-main-card{
+    background-image: url("/assets/dragon.jpg");
+    height: 321px;
+    /* flex-grow: 1; */
+    width: 321px;
+    border-radius: 2em;
+    box-shadow: 7px 7px lightgrey;  
+    margin: 2em; 
+}
+
+.paradis-main-card{
+    background-image: url("/assets/walls.jpg");
+    height: 321px;
+    /* flex-grow: 1; */
+    width: 321px;
+    border-radius: 2em;
+    box-shadow: 7px 7px lightgrey;
+    margin: 2em; 
+}
+
+.mordor-main-card{
+    background-image: url("/assets/Mount_doom_card.png");
+    height:321px;
+    /* flex-grow: 1; */
+    width:321px;
+    border-radius: 2em;
+    box-shadow: 7px 7px lightgrey;
+    margin: 2em; 
+}
+
+.peachtree-main-card{
+    background-image: url("/assets/dredd.png");
+    height: 321px;
+    /* flex-grow: 1; */
+    width: 321px;
+    border-radius: 2em;
+    box-shadow: 7px 7px lightgrey;
+    margin: 2em; 
+}
+
+article {
+    display:flex;
+}
+
+main {
+    flex-grow: 60%;
+}
+
+aside {
+    display:flex;
+    flex-grow: 40%;
+}
+
+.clickbait {
+    /* float:right; */
+    width: 400px;
+    height: auto;
+    max-width:100%;
+}
+
+.countries-infocards {
+    display:flex;
+    text-align:center;
+}
+
+.counter {
+
+    bottom:50px;
+    width:400px;
+    height:auto;
+}
+
+footer {
+    text-align:center;
+}
+
+
+.mordor-gif {
+    width:1000px;
+    height:auto;
+    max-width:100%;
+    justify-content:center;
+}
+
+
+.mordor-name {
+    font-size: 150px;
+    font-family:fantasy;
+    font-weight:bolder;
+    text-align:center;
+    color:darkred;
+
+}
+
+.mordor-infocards {
+    display:flex;
+    justify-content: space-evenly;
+    font-size:20px;
+    color:white;
+}
+
+.mordor-cities {
+    background-image:url(/assets/baraddur.jpeg);
+    width:400px;
+    height:auto;
+}
+
+.mordor-landmarks {
+    background-image:url(/assets/blackgate.jpeg);
+    width:400px;
+    height:auto;
+}
+
+.mordor-citizens {
+    background-image:url(/assets/sauron.jpeg);
+    width:400px;
+    height:auto;
+}
