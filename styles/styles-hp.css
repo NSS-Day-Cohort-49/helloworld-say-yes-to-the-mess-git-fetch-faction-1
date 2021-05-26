@@ -1,0 +1,46 @@
+ 
+ .hogwarts-castle-pic{
+    width:100%;
+
+}
+
+.hogwarts-background{
+    background-image: url("/assets/harry-potter-background-nawpic-6.jpg");
+}
+
+.hogwarts-cities-pic{
+   background-image: url("/assets/dragon.jpg");
+   width:350px;
+   height: 350px;
+   color: white;
+   box-shadow: 3px 3px lightgrey;
+}
+
+.hogwarts-landmark-pic{
+   background-image: url("/assets/mainhall.jpg");
+   width:350px;
+   height: 350px;
+   color: white;
+   box-shadow: 3px 3px lightgrey;
+}
+
+.hogwarts-citizens-pic{
+
+   background-image: url("/assets/dumbledore.jpg");
+   width:350px;
+   height: 350px; 
+   color: white;
+   box-shadow: 3px 3px lightgrey;
+}
+
+.countries-gif{
+   display: flex;
+   justify-content: space-evenly;
+   margin: 3em;
+  
+  
+}
+
+.gif-card{
+   /* box-shadow: 3px 3px lightgrey; */
+}

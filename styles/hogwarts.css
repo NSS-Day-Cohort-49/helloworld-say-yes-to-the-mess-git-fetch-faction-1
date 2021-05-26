@@ -1,0 +1,135 @@
+
+body{
+    background-color: darkgrey;
+}
+article{
+    display: flex;
+}
+
+aside{
+    flex-grow: 1;
+    width: 31%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header{
+    display:flex;
+
+}
+main{
+    flex-grow: 7;
+
+}
+
+li{
+    font-size: x-large;
+}
+
+footer{
+    text-align: center;
+    margin: 2em;
+}
+
+
+.ad{
+    display: flex;
+    border-radius: 0em 1em 1em 0em;
+    box-shadow: 3px 3px lightgrey;
+    width: 82%;
+}
+
+
+
+.countries-name{
+    text-align: center;
+    font-size: xxx-large;
+    margin: 1em;
+}
+
+.countries-info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 2em;
+    padding-top: 1em;
+
+}
+
+.countries-title{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.cry{
+    height: 14.25%;
+}
+
+.dance-party{
+    height: 13.5%;
+}
+.infocards{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin: .25em;
+}
+
+.i-lost-it{
+    height: 13%;
+}
+
+.nav_bar{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 2em;    
+}
+
+.links{ 
+    flex-basis: 15%;
+    border: 1px solid black;
+    padding: .5em;
+    background-color: lightgrey;
+    box-shadow: 3px 3px blue;
+}
+
+.list-of-info{
+    text-align: center;
+    margin: 1em;
+    font-size: xx-large;
+}
+
+.logo-image{
+    flex-grow: 1;
+}
+
+.quidditch{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1em;
+}
+
+.site-title{
+    flex-grow: 5;
+    text-align: center;
+    font-size: xxx-large;
+    color: white;
+    text-shadow: 3px 3px lightblue;
+    margin: 1em;
+}
+.top_bar{
+    display: flex;
+    text-align: center;
+}
+
+.snake{
+    width: 86.2%;
+
+}
+
+.wizard{
+    width: 43%;
+    height: 13%;
+}
